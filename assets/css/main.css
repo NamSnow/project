@@ -5,10 +5,12 @@
 /* ===== FONTS ===== */
 @theme {
   --font-sans: "Public Sans", sans-serif;
+  --font-sans-PlusJakartaSans: "Plus Jakarta Sans", San-serif;
+  --font-lora: "Lora";
 }
 
-.container {
+/* .container {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 15px;
-}
+} */

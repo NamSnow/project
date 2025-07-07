@@ -3,9 +3,19 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  modules: ["@nuxt/ui", "@pinia/nuxt", "@vueuse/nuxt", "@nuxt/icon"],
+  modules: [
+    "@nuxt/ui",
+    "@pinia/nuxt",
+    "@vueuse/nuxt",
+    "@nuxt/icon",
+    "@nuxtjs/tailwindcss",
+  ],
 
-  css: ["~/assets/css/main.css"],
+  css: [
+    "/assets/css/main.css",
+    "@fortawesome/fontawesome-free/css/all.min.css",
+  ],
+
   ssr: true,
   future: {
     compatibilityVersion: 4,

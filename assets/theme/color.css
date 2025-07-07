@@ -1,5 +1,5 @@
-/* ===== COLORS ===== */
-/* RED */
-@theme {
+:root {
   --color-customRed-900: #d80027;
+  --e-global-color-accent: #d1a132;
+  --e-global-color-primary: #0a2c0f;
 }
