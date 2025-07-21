@@ -5,8 +5,8 @@
 /* ===== FONTS ===== */
 @theme {
   --font-sans: "Public Sans", sans-serif;
-  --font-sans-PlusJakartaSans: "Plus Jakarta Sans", San-serif;
-  --font-lora: "Lora";
+  --font-plus: "Plus Jakarta Sans", sans-serif;
+  --font-lora: "Lora", sans-serif;
 }
 
 /* .container {
